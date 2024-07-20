@@ -1,0 +1,6 @@
+data/io.github.cute_lights.CuteScript.desktop.in
+data/io.github.cute_lights.CuteScript.metainfo.xml.in
+data/io.github.cute_lights.CuteScript.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

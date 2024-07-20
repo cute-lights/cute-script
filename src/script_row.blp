@@ -1,0 +1,35 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $ScriptRow: Adw.PreferencesGroup {
+    Adw.ActionRow {
+        title: bind template.name;
+        subtitle: bind template.description;
+        subtitle-lines: 1;
+
+        Box {
+            orientation: horizontal;
+            spacing: 4;
+            margin-top: 6;
+            margin-bottom: 6;
+
+            Button edit_button {
+                icon-name: "document-edit-symbolic";
+
+                styles [
+                    "flat"
+                ]
+            }
+
+            Button play_button {
+                icon-name: "media-playback-start-symbolic";
+
+                styles [
+                    "flat"
+                ]
+            }
+        }
+    }
+
+    // child:;
+}

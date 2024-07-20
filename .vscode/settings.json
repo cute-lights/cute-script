@@ -1,0 +1,14 @@
+{
+    // group files
+    "explorer.fileNesting.patterns": {
+        "*.py": "$(capture).blp"
+    },
+
+    "cSpell.words": [
+        "datadir",
+        "gresource",
+        "localedir",
+        "moduledir",
+        "pkgdatadir"
+    ]
+}

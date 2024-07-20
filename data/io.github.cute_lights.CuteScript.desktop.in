@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=cute-script
+Exec=cute-script
+Icon=io.github.cute_lights.CuteScript
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
